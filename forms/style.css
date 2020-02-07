@@ -1,0 +1,18 @@
+input {
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: auto;
+}
+
+label + label {
+    display: block;
+}
+
+input:invalid {
+    color: red;
+}

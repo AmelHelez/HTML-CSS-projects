@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Max Number in Array</title>
+</head>
+<body>
+<h2>JavaScript Operation</h2>
+<p>The highest number in the array is <span id="demo"></span>.</p>
+
+<script>
+    var x = [23,31,77,123,44,321,54,98,66];
+    document.getElementById("demo").innerHTML = maxNumberArray(x);
+    
+    function maxNumberArray(arr) {
+        return Math.max.apply(null,arr);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+header, footer {
+    background-color: cadetblue;
+    padding: 30px 0;
+    color: black;
+}
+
+header p {
+    margin-top: 13px;
+    font-size: 20px;
+    color: white;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+}
+header h1 {
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: cadetblue;
+    background-color: white;
+    transition: all 0.2s ease-in;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.main-picture {
+    background-image: url("gojnobu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.main-picture h3 {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.column {
+    margin-top: 40px;
+    width: 32.4%;
+    float: left;
+    background-color: white;
+}
+
+.middle img {
+    height: 265px;
+}
+.middle {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.column img {
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.column h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.column p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+td, th {
+    color: black;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.addstudent {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.addstudent a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 9px;
+}
+
+.addstudent a:hover {
+   background-color: cadetblue;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+footer {
+    font-size: 30px;
+}
+
+table a {
+    text-decoration: none;
+    color: black;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    font-size: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+button {
+    display: block;
+    padding: 15px 50px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease-in;
+}
+
+
+@media screen and (max-width: 600px) {
+  header, .wrapper, .columnm, footer {
+      width: 100%;
+  }
+
+    header nav {
+        margin-top: -30px;
+    }
+    header nav ul li {
+        display: block;
+        margin-bottom: -10px;
+    }
+
+    header nav ul li a {
+        padding: 0 10px;
+        border-radius: 0;
+    }
+
+    header nav ul li a:hover {
+        text-decoration: underline;
+        transition: unset;
+    }
+    header h1 {
+        display: inline-block;
+        font-size: 20px;
+        padding: 0 9px;
+    }
+
+    header nav {
+        float: left;
+    }
+
+    header nav p {
+        padding: 20px 9px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table,td,th {
+        width: 100%;
+    }
+
+    input[type="date"] {
+    display: none;
+    }
+    .column img {
+        max-width: 100%;
+    }
+
+    .middle {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .column {
+        display: block;
+        width: 100%
+    }
+}

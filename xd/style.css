@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    color: #444444;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+header, footer {
+    background-color: lightgray;
+    padding: 30px 0;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    padding: 5px 7px;
+    background-color: #0090C5;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #666;
+}
+
+header nav ul li a:hover {
+    background-color: #444;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    width: 820px;
+    float: left;
+}
+
+main h1 {
+    color: #333;
+    margin-bottom: 25px;
+}
+
+main img {
+    border-radius: 10px;
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+main p {
+    width: 93%;
+    margin-bottom: 25px;
+    color: #333;
+    line-height: 26px;
+}
+
+aside {
+    margin-top: 13px;
+    margin-left: 18px;
+    float: left;
+    width: 360px;
+}
+
+aside h3 , aside p{
+    color: #333;
+    margin-bottom: 25px;
+}
+
+aside p {
+    line-height: 20px;
+}
+
+aside img {
+    border-radius: 50%;
+    width: 60%;
+    margin: 15px 0 0 70px;
+}
+
+
+footer {
+    margin-top: 30px;
+}
+footer p {
+    color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    header, .wrapper, footer, main, aside{
+        width: 100%;
+    }
+
+    header h1 {
+        display: inline-block;
+        margin-left: 13px;
+    }
+    header nav {
+        display: inline-block;
+        float: none;
+    }
+    header nav ul li {
+        display: inline-block;
+     }
+    header nav ul li a {
+        display: inline-block;
+    }
+
+    main, aside {
+        display: block;
+    }
+
+    main img {
+        max-width: 100%;
+    }
+
+    main p, aside p {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    aside {
+        margin-left: 5px;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+
+}

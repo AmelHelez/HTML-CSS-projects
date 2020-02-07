@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #313A5A;
+    color: white;
+    position: relative;
+    padding: 20px 20px 200px;
+    margin-bottom: 60px;
+}
+
+.wrapper {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+header h1 {
+    display: inline-block;
+    margin-right: 200px;
+    margin-bottom: 80px;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+header h2, header p {
+    width: 460px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+header p {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+#getstared {
+    margin-top: 25px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color:  #1FDB84;
+}
+
+#getstared a {
+    color: white;
+    text-decoration: none;
+}
+.clerleft {
+    clear: left;
+}
+
+#slika {
+    background-image: url("ipone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 540px;
+    width: 400px;
+    position: absolute;
+    background-position: 70%;
+    right: 220px;
+    bottom: -200px;
+
+}
+
+main {
+    background-color: white;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+    padding: 50px 30px;
+    margin-bottom: 50px;
+}
+
+.column {
+    width: 33.33%;
+    float: left;
+    margin-top: 40px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.column h3, .column p {
+    color: #313A5A;
+}
+.column hr {
+    margin: 20px 0;
+    background-color: #1FDB84;
+    width: 14%;
+    height: 3px;
+
+}
+
+.column p {
+    line-height: 23px;
+    width: 80%;
+}
